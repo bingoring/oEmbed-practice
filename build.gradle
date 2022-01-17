@@ -50,6 +50,15 @@ dependencies {
     // MariaDB
     implementation 'org.mariadb.jdbc:mariadb-java-client:2.7.3'
 
+    //
+    implementation 'com.h2database:h2'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+
+    // DozerMapper
+    implementation 'com.github.dozermapper:dozer-core:6.5.2'
+
+    //h2
+    runtimeOnly 'com.h2database:h2'
 }
 
 test {
